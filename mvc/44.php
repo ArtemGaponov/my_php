@@ -25,24 +25,6 @@ if ($_SESSION['uid']) {
     }
 }
 
-//var_dump($_SESSION);
-
-
-//isset($array['key'])
-
-
-//var_dump($_SESSION);
-/*
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    var_dump($_POST);
-}
-if ($_SERVER['REQUEST_METHOD'] == 'POST' and $_POST['pass'] == $_POST['repass']) {
-    var_dump($_POST);
-} else if ($_SERVER['REQUEST_METHOD'] == 'POST' and $_POST['pass'] != $_POST['repass']) {
-    echo 'paroli ne sovpadaut';
-} else {
-    echo 'Zapolnite polia';
-}*/
 ?>
 <!DOCTYPE html>
 <html>
